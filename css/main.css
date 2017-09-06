@@ -37,10 +37,18 @@ a {
   color: #f27731;
 }
 
+a:hover {
+  color: #ca510d;
+}
+
 .warning-button {
   background-color: orange;
   color: #fff;
   padding: 8px 12px;
+}
+
+.warning-button:hover {
+  background-color: #ffb733;
 }
 
 #header {
@@ -59,6 +67,14 @@ a {
 
 #header #main-menu a {
   color: white;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(254, 254, 254, 0);
+  transition: border-bottom 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+#header #main-menu a:hover {
+  border-bottom: 1px solid #fefefe;
 }
 
 #main {
