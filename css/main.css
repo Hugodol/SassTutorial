@@ -9,6 +9,15 @@ a {
   font-size: 125%;
 }
 
+.error, .critical-error, .cta-button {
+  color: red;
+}
+
+.critical-error {
+  bottom: 1px solid red;
+  font-weight: bold;
+}
+
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
   color: #222222;
@@ -117,6 +126,7 @@ a:hover {
 }
 
 #footer {
+  clear: both;
   height: 90px;
   background-color: #ccf962;
 }
